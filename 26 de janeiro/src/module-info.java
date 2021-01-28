@@ -1,0 +1,3 @@
+module viteSeisdeJaneiro {
+	exports exerciciosDoDia;
+}
