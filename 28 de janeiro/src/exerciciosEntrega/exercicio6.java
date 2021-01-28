@@ -14,7 +14,7 @@ public class exercicio6 {
 		do {
 		System.out.println("Entre com um número, para sair da repetição, entre com 0 ");
 		num=ler.nextInt();
-			if (num%3==0 && num>0 || num<0)
+			if (num%3==0 && num!=0)
 			{
 				qtdmultiplo++; //feito para saber a quantidade dos múltiplos
 				multiplo=multiplo+num; //feito para somar os multiplos
