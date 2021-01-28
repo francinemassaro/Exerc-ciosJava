@@ -9,7 +9,7 @@ public class exercicio3 {
 // idade for =-99. (WHILE)
 	
 	Scanner ler = new Scanner(System.in);
-	int x, idade = 0, vinteum=0, cinquenta=0;
+	int idade = 0, vinteum=0, cinquenta=0;
 	String nome;
 	
 	while (idade!=-99)
@@ -19,7 +19,7 @@ public class exercicio3 {
 		System.out.printf("Agora digite a sua idade: ");
 		idade=ler.nextInt();
 		{
-			if (idade<=21 && idade!=-99 &&idade!=0)
+			if (idade<=21 && idade!=-99 && idade!=0)
 					{
 					vinteum++;
 					}
