@@ -12,27 +12,24 @@ public class exercicio3 {
 	int x, idade = 0, vinteum=0, cinquenta=0;
 	String nome;
 	
-	do
+	while (idade!=-99)
 	{
-		for (x=1;x<=1;x++)
-		{
-			//System.out.printf("Digite o seu nome: ");
+		//System.out.printf("Digite o seu nome: ");
 			//nome=ler.next();
-			System.out.printf("Agora digite a sua idade: ");
-			idade=ler.nextInt();
-			{
-				if (idade<=21 && idade!=-99)
-						{
-						vinteum++;
-						}
-				else if (idade>=50)
-						{
-						cinquenta++;
-						}
-			}
+		System.out.printf("Agora digite a sua idade: ");
+		idade=ler.nextInt();
+		{
+			if (idade<=21 && idade!=-99 &&idade!=0)
+					{
+					vinteum++;
+					}
+			else if (idade>=50)
+					{
+					cinquenta++;
+					}
 			
 		} 
-	} while (idade!=-99);
+	}
 	
 	System.out.println("O número de pessoas abaixo de 21 anos é de "+vinteum);
 	System.out.println("O número de pessoas acima de 50 anos é de "+cinquenta);
