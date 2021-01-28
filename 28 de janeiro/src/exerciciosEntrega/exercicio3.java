@@ -34,6 +34,6 @@ public class exercicio3 {
 	System.out.println("O número de pessoas abaixo de 21 anos é de "+vinteum);
 	System.out.println("O número de pessoas acima de 50 anos é de "+cinquenta);
 	
-		
+		//
 	}
 }
