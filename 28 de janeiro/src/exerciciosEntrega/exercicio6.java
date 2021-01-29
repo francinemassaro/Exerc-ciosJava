@@ -22,9 +22,10 @@ public class exercicio6 {
 			
 		}while (num!=0);
 		
+		if (qtdmultiplo!=0) { 
 		media=multiplo/qtdmultiplo;
 	System.out.println("A média dos números múltiplos de 3 é: " + media);
-	
+		}
 
 	}
 }

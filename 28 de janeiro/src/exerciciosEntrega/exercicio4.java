@@ -23,7 +23,7 @@ public static void main(String[] args) {
 	int idade=0, sexo=0, fp=0, numpessoas=1, calmas=0, mulheresnervosas=0, 
 		homensagressivos=0, outroscalmos=0, nervosasquarenta=0, calmasdezoito=0;
 	
-	while(numpessoas<=2)
+	while(numpessoas<=10)
 	{
 		System.out.println("Escreva a sua idade: ");
 		idade=ler.nextInt();

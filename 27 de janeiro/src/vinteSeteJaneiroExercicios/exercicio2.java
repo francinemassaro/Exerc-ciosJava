@@ -19,27 +19,27 @@ public class exercicio2 {
 
 	if 		(n1>n2 && n2>n3)
 	{
-		System.out.println("Os números em ordem crescente são: " + n1+" "+" "+n2+" "+" "+n3);
+		System.out.println("Os números em ordem crescente são: " + n3+" "+" "+n2+" "+" "+n1);
 	}
 	else if(n1>n3 && n3>n2)
 	{
-		System.out.println("Os números em ordem crescente são: " + n1+" "+n3+" "+n2);
+		System.out.println("Os números em ordem crescente são: " + n2+" "+n3+" "+n1);
 	}
 	else if(n2>n1 && n1>n3)
 	{
-		System.out.println("Os números em ordem crescente são: " + n2+" "+n1+" "+n3);
+		System.out.println("Os números em ordem crescente são: " + n3+" "+n1+" "+n2);
 	}
 	else if(n2>n3 && n3>n1)
 	{
-		System.out.println("Os números em ordem crescente são: " + n2+" "+n3+" "+n1);
+		System.out.println("Os números em ordem crescente são: " + n1+" "+n3+" "+n2);
 	}
 	else if (n3>n2 && n2>n1)
 	{
-		System.out.println("Os números em ordem crescente são: " + n3+" "+n2+" "+n1);
+		System.out.println("Os números em ordem crescente são: " + n1+" "+n2+" "+n3);
 	}
 	else if (n3>n1 && n1>n2)
 	{
-		System.out.println("Os números em ordem crescente são: " + n3+" "+n1+" "+n2);
+		System.out.println("Os números em ordem crescente são: " + n2+" "+n1+" "+n3);
 	}
 	else
 	{

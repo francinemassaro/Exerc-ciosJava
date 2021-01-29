@@ -25,8 +25,8 @@ public class exercicio2 {
 		}
 	}
 	
-	System.out.println("A quantidade de númeroes ímpares digitados são de "+impar+" e a quantidade de números pares digitados são de "+par);
-	//System.out.printf("A quantidade de números ímpares digitados são de %2.0f e a quantidade de números pares digitados são de %2.0", impar, par);
+	//System.out.println("A quantidade de númeroes ímpares digitados são de "+impar+" e a quantidade de números pares digitados são de "+par);
+	System.out.printf("A quantidade de números ímpares digitados são de %2.0f e a quantidade de números pares digitados são de %2.0f", impar, par);
 		
 	}
 }
