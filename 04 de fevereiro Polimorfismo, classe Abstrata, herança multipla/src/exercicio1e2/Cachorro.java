@@ -17,7 +17,7 @@ public class Cachorro extends Animal {
 	public void sons(String sons) {
 		// TODO Auto-generated method stub
 		
-			System.out.println("\nO "+nome+" é um Cachorro. Ele tem "+idade+" anos e faz "+som+" ele gosta de "+locomocao);
+			System.out.println("\nO "+nome+" é um Cachorro. Ele tem "+idade+" anos e faz "+som+"... Ele gosta de "+locomocao);
 			
 
 	}
