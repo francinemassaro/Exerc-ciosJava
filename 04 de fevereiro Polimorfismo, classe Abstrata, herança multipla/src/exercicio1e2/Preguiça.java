@@ -15,7 +15,7 @@ public class Preguiça extends Animal {
 	@Override
 	public void sons(String sons) {
 		// TODO Auto-generated method stub
-		System.out.println("A preguiça faz aAAAAA");
+		System.out.println("\nA preguiça "+locomocao+". Ela faz zzzZzzZzZZZZZzzZZ...");
 		
 	}
 

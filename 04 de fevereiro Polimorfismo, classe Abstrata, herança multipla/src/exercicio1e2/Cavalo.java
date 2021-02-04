@@ -15,7 +15,7 @@ public class Cavalo extends Animal {
 	@Override
 	public void sons(String sons) {
 		// TODO Auto-generated method stub
-		System.out.println("O cavalo faz hiiihihihihihi");
+		System.out.println("\nO cavalo "+nome+" faz hiiiiii hiiihihihihihi");
 	}
 
 	

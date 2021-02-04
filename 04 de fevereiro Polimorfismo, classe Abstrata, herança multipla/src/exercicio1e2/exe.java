@@ -26,7 +26,7 @@ public class exe {
 	cavalo1.setSom("HIIIII HI-HI-HI");
 	
 	pregui1.setNome("Francine");
-	pregui1.setLocomocao("subir em árvores.");
+	pregui1.setLocomocao("sobe em árvores.");
 	pregui1.setIdade(0);
 	pregui1.setSom("...nhai, que preg...");
 	
@@ -36,6 +36,7 @@ public class exe {
 
 			cao1.sons(null);
 			cavalo1.sons(null);
+			pregui1.sons(null);
 	
 	
 	}
