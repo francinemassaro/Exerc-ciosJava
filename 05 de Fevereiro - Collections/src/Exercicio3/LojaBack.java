@@ -6,6 +6,7 @@ public abstract class LojaBack {
 	
 //	public String genero;
 	public String nomeProduto;
+	public String tipo;
 //	public String autor;
 //	public int paginas;
 	
@@ -14,10 +15,11 @@ public abstract class LojaBack {
 		
 	}
 	
-	public LojaBack (String nomeProduto)
+	public LojaBack (String nomeProduto, String tipo)
 	{
 		//this.genero=genero;
 		this.nomeProduto=nomePruduto;
+		this.tipo=tipo;
 		//this.autor=autor;
 	//	this.paginas=paginas;
 	}

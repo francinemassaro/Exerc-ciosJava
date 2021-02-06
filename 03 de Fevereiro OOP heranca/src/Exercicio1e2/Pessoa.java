@@ -12,6 +12,10 @@ public class Pessoa {
 	protected String telefone;
 
 //2-Criar o construtor:
+	protected Pessoa()
+	{
+		
+	}
 	protected Pessoa (String nome, String endereço, String telefone)
 	{
 		this.nome=nome;
