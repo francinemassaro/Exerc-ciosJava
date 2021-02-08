@@ -70,8 +70,7 @@ public class exe {
 			{
 					pregui1.sons(null);
 			}
-			
-	
+
 	
 	}
 }
